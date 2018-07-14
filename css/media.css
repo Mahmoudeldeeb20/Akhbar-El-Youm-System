@@ -128,4 +128,5 @@
 
 /* IE10 & IE11 CSS styles go here */
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {}

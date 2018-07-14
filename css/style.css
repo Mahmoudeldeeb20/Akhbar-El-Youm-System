@@ -273,7 +273,6 @@ body {
         display: block;
         font-size: 54pt;
         margin-top: 1%;
-        ef;
         font-family: 'Cairoreg';
 }
 
@@ -1231,10 +1230,6 @@ body {
         background: #000;
 }
 
-.university_login .login_form_content form {}
-
-.university_login .login_form_content form .login_group {}
-
 .university_login .login_form_content form .login_group .login_input {
         border-radius: 2px;
         border: none;
@@ -1245,8 +1240,6 @@ body {
         transition: all ease-out 0.3s;
         color: rgb(252, 186, 46);
 }
-
-.university_login .login_form_content form .login_group .login_input:hover {}
 
 .university_login .login_form_content form .login_group .login_input:focus {
         background: #fcba2e;
@@ -1279,8 +1272,6 @@ body {
         background: #222;
 }
 
-.university_login .login_form_content form .login_submit:focus {}
-
 /* ///// ///// /////  //-- Login --//  ///// ///// /////  */
 
 /* ///// ///// ///// ///// /////  //-- Mahmoud Hamdy Style --//  ///// ///// ///// ///// /////  */
@@ -1305,7 +1296,8 @@ body {
         background-size: cover;
 }
 
-.department-projects .department_heading_text, .department-projects .staff_heading {
+.department-projects .department_heading_text,
+.department-projects .staff_heading {
         font-family: 'azothin';
         font-size: 40pt;
         position: relative;
@@ -1402,8 +1394,6 @@ body {
         padding-bottom: 0;
 }
 
-.description-project .image-project {}
-
 .description-project .image-project img {
         width: 100%;
 }
@@ -1445,6 +1435,7 @@ body {
 
 .list-links ul {
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+        padding: 0;
 }
 
 .list-links ul li {
@@ -1467,8 +1458,6 @@ body {
         font-size: 12pt;
         font-family: 'cairosemi';
 }
-
-.list-links ul li:hover a {}
 
 .list-links ul li.active {
         background-color: #222;
@@ -1540,7 +1529,8 @@ body {
         width: 100%;
 }
 
-.job-desription, .eduction {
+.job-desription,
+.eduction {
         background-color: #FFF;
 }
 
@@ -1565,8 +1555,6 @@ body {
         font-family: 'cairoreg';
 }
 
-.job-desription span, .job-desription i {}
-
 .job-desription i {
         cursor: pointer;
         font-size: 16px;
@@ -1581,8 +1569,6 @@ body {
         background: rgba(0, 0, 0, 0.02);
         color: #435c70;
 }
-
-.eduction, .job-desription, .profile {}
 
 .eduction {
         padding-left: 15px;
@@ -1601,15 +1587,15 @@ body {
         margin-right: 2;
 }
 
-.eduction .universtiy, .eduction .building {
+.eduction .universtiy,
+.eduction .building {
         margin-top: 7%;
         font-size: 40pt;
         color: #222;
 }
 
-.eduction i {}
-
-.eduction i, .eduction span {
+.eduction i,
+.eduction span {
         color: #222;
 }
 
@@ -1649,7 +1635,9 @@ body {
         font-family: 'cairosemi';
 }
 
-.eduction .list-accouts li .fa-linkedin, .eduction .list-accouts li .fa-yahoo, .eduction .list-accouts li .fa-facebook {
+.eduction .list-accouts li .fa-linkedin,
+.eduction .list-accouts li .fa-yahoo,
+.eduction .list-accouts li .fa-facebook {
         font-size: 23px;
 }
 
@@ -1814,8 +1802,6 @@ body {
         margin-top: 4%;
 }
 
-.Heads-of-Departments .head-blog .head_blog_img {}
-
 .Heads-of-Departments .head-blog .head_blog_iinfo {
         padding-left: 0;
 }
@@ -1873,8 +1859,6 @@ body {
 .carousel-inner .carousel-item img {
         width: 100%;
 }
-
-.carousel-inner .carousel-item {}
 
 .about-library {
         padding: 4% 0;
@@ -1998,8 +1982,6 @@ body {
         background-color: #222;
 }
 
-.about .fullscreen-bg {}
-
 .about .fullscreen-bg .about_video {
         width: 100%;
         border-radius: 2px;
@@ -2025,8 +2007,6 @@ body {
         box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.5);
         transition: all ease-out 0.3s;
 }
-
-.department .department_card:hover {}
 
 .department .department_card_img {
         margin-bottom: 50px;
@@ -2073,15 +2053,14 @@ body {
         border: none;
 }
 
-.department .department_nav_tabs .department_item:first-of-type {}
-
 .department .department_nav_tabs .department_item {
         background-color: rgba(0, 0, 0, 0.04);
         width: 24.5%;
         margin-right: 0.5%;
 }
 
-.department .department_nav_tabs .department_item.show .department_link, .department_nav_tabs .department_link {
+.department .department_nav_tabs .department_item.show .department_link,
+.department_nav_tabs .department_link {
         color: #000;
         text-align: center;
         transition: all ease-out 0.3s;
@@ -2093,7 +2072,8 @@ body {
         margin-right: 4%;
 }
 
-.department .department_nav_tabs .department_item.show .department_link, .department_nav_tabs .department_link.active {
+.department .department_nav_tabs .department_item.show .department_link,
+.department_nav_tabs .department_link.active {
         border: none;
         border-top: 3px solid #ffc700;
         border-radius: 0;
@@ -2187,8 +2167,6 @@ body {
         background: #000;
 }
 
-.profile_student .all_profile_student .profile_data_control {}
-
 .profile_student .all_profile_student .profile_data_control .data_heading {
         display: block;
         text-align: center;
@@ -2215,15 +2193,9 @@ body {
         cursor: pointer;
 }
 
-.profile_student .all_profile_student .profile_data_control .profile_control li:hover {}
-
 .profile_student .all_profile_student .profile_data_control .profile_control li.active {
         color: #fdb92d;
 }
-
-.profile_student .all_profile_student .profile_data_control .profile_control li.active {}
-
-.profile_student .all_profile_student {}
 
 .profile_student .all_profile_student .profile_student_data_content {
         padding: 4%;
@@ -2243,8 +2215,6 @@ body {
         width: 100%;
 }
 
-.profile_student .all_profile_student .profile_student_data_content .student_data_info {}
-
 .profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show {
         padding: 4%;
         list-style: none;
@@ -2262,24 +2232,16 @@ body {
         border-radius: 2px;
 }
 
-.profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show li:hover {}
-
 .profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show li .data_type {
         font-family: 'changamd';
         display: inline-block;
 }
-
-.profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show li:hover.data_type {}
 
 .profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show li .data_content {
         position: absolute;
         right: 0;
         width: 80%;
 }
-
-.profile_student .all_profile_student .profile_student_data_content .student_data_info .student_data_show li:hover.data_content {}
-
-.profile_student .all_profile_student .profile_student_data_content .profile_subject_heading {}
 
 .profile_student .all_profile_student .profile_student_data_content .profile_subject_heading .text {
         margin: 0;
@@ -2308,8 +2270,6 @@ body {
         color: rgb(253, 185, 45);
 }
 
-.profile_student .all_profile_student .profile_student_data_content .subject_table thead tr:hover {}
-
 .profile_student .all_profile_student .profile_student_data_content .subject_table thead tr th {
         border: none;
         background: #222;
@@ -2335,8 +2295,6 @@ body {
 .profile_student .all_profile_student .profile_student_data_content .subject_table tbody tr td {
         vertical-align: middle;
 }
-
-.profile_student .all_profile_student .profile_student_data_content .subject_table tbody tr td .lecture_dropdown {}
 
 .profile_student .all_profile_student .profile_student_data_content .subject_table tbody tr td .lecture_dropdown .lecture_toggle {
         border-radius: 2px;
@@ -2370,8 +2328,6 @@ body {
         width: 60%;
 }
 
-.profile_student .all_profile_student .profile_student_data_content .form_password .form_password_change {}
-
 .profile_student .all_profile_student .profile_student_data_content .form_password .form_password_change .password_input {
         border-radius: 2px;
         margin-bottom: 2%;
@@ -2398,5 +2354,3 @@ body {
         color: rgb(253, 185, 45);
         background: #222;
 }
-
-.profile_student .all_profile_student .profile_student_data_content .form_password .password_submit {}
